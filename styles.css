@@ -30,6 +30,11 @@ body {
     height: 50px;
 }
 
+.navbar {
+    color: #587199d4;
+    background-color: #587199d4;
+}
+
 .jumbotron{
     position: relative;
     z-index:-101;
@@ -45,3 +50,25 @@ body {
     z-index: -100;
     width:100%;
   }
+}
+
+.container-fluid h1 {
+    color:#27234b;
+}
+
+.table .thead-dark th {
+    background-color:#27234b;
+    color: white;
+}
+
+.table {
+    background-color:white;
+}
+
+.col-sm-6 h1 {
+    padding-bottom:3%;
+}
+
+.col-sm-4 h1 {
+    padding-bottom:3%;
+}
